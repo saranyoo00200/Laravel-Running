@@ -453,9 +453,12 @@
                             <div class="mb-3 border border-secondary p-2 rounded">
                                 <canvas id="myChart"></canvas>
                             </div>
-                            <h5>ระยะทางทั้งหมด {{ $all }} กิโลเมตร</h5>
-                            <img src="https://cdn.discordapp.com/attachments/839060038306889739/898474391581622332/thailand-map.png"
-                                style="height:450px;">
+                            <h5>ระยะทางวิ่งทั้งหมด {{ $all }} กิโลเมตร</h5>
+                            {{-- <img src="https://cdn.discordapp.com/attachments/839060038306889739/898474391581622332/thailand-map.png"
+                                style="height:450px;"> --}}
+                            <iframe class="border border-secondary"
+                                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15897379.135856612!2d90.77787029215!3d13.400182326261033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x30d706670927ea4b%3A0x386bd811b93aa61e!2z4LmA4LiK4Li14Lii4LiH4Lij4Liy4Lii!3m2!1d19.9071656!2d99.83095499999999!4m5!1s0x304cd5dcaf092441%3A0x259b3778ec1d8e12!2z4Liq4LiH4LiC4Lil4Liy!3m2!1d7.1756003999999995!2d100.614347!5e0!3m2!1sth!2sth!4v1634525869997!5m2!1sth!2sth"
+                                width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="col-lg-8 col-md">
                             <div class="card border border-secondary" style="position: relative;
@@ -591,9 +594,6 @@
                 },
             }
         });
-    </script>
-    <script>
-
     </script>
 </body>
 
